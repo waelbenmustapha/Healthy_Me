@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">HealthHealth</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nameinvalid">Please Enter Name</string>
+    <string name="lastnameinvalid">Please Enter Last Name</string>
+    <string name="lastname">Last Name</string>
+    <string name="firstname">First Name</string>
+    <string name="heightHint">Height in CM</string>
+    <string name="AgeHint">Age</string>
+    <string name="descriptionCostum">Input how many Kg\'s you want to lose and we will give you how much calories you need to take , taking in count your height weight age </string>
+    <string name="description2000">2,000-calorie diets are considered standard for most adults, as this number is considered adequate to meet most people’s energy and nutrient needs.</string>
+<string name ="description1500">The 1,500-calorie diet is a diet plan that people may try when attempting to lose weight. By eating fewer calories and exercising regularly.</string>
+    <string name="description1000">the 1,000 calorie meal diet is a short-term, slightly extreme diet plan that requires you to slash the calories you’re eating and opt for high-protein, low-fat and calorie foods</string>
+    <string name="Submit">Submit</string>
+    <string name="weightHint">weigth in KG</string>
+    <string name="validage">Please Enter a Valid Age</string>
+    <string name="validheight">Please Enter Valid Weight</string>
+    <string name="validweight">Please Enter Valid Weight</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="saisir_votre_email">Saisir votre email</string>
+    <string name="title_activity_navigation">Navigation</string>
+    <string name="diets">Diets</string>
+    <string name="choosediet">Choose wich Diets fits you more</string>
+    <string name="home">Home</string>
+    <string name="username_example">Username Example</string>
+</resources>
+

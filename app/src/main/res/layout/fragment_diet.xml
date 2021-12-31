@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Diet"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#fff">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/texts"
+       >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/lobster"
+            android:text="@string/diets"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/lobster"
+            android:text="@string/choosediet"
+            android:textAlignment="center"
+            android:textColor="@color/blackfetah"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        android:id="@+id/recyclerView"
+        android:paddingBottom="60dp"
+
+        >
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <!--<ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fadingEdge="none"
+        android:fillViewport="true"
+        android:isScrollContainer="true"
+        android:scrollbars="none"
+      >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:id="@+id/diet1500"
+
+                android:layout_marginTop="20dp"
+                app:cardCornerRadius="15dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#ff7a6b"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/firsttext2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="1500 Calories Diet"
+                        android:textColor="#ffff"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="214dp"
+                        android:layout_height="74dp"
+                        android:layout_below="@+id/firsttext2"
+                        android:layout_marginLeft="10dp"
+                        android:text="The 1,500-calorie diet is a diet plan that people may try when attempting to lose weight. By eating fewer calories and exercising regularly."
+                        android:textColor="#ffff"
+                        android:textSize="12sp" />
+
+                    <ImageView
+                        android:layout_width="125dp"
+                        android:layout_height="100dp"
+                        android:layout_alignParentRight="true"
+                        android:maxHeight="100dp"
+                        android:src="@drawable/diet2" />
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:id="@+id/diet1000"
+
+                android:layout_marginTop="20dp"
+                app:cardCornerRadius="15dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#ffa831"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/firsttext3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="1000 Calories Diet"
+                        android:textColor="#ffff"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="237dp"
+                        android:layout_height="67dp"
+                        android:layout_below="@+id/firsttext3"
+                        android:layout_marginLeft="10dp"
+                        android:text="the 1,000 calorie meal diet is a short-term, slightly extreme diet plan that requires you to slash the calories you’re eating and opt for high-protein, low-fat and calorie foods"
+                        android:textColor="#ffff"
+                        android:textSize="12sp" />
+
+                    <ImageView
+                        android:layout_width="125dp"
+                        android:layout_height="100dp"
+                        android:layout_alignParentRight="true"
+                        android:maxHeight="100dp"
+                        android:src="@drawable/diet1" />
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:id="@+id/dietcostum"
+                android:layout_marginTop="20dp"
+                app:cardCornerRadius="15dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#1cc08e"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/firsttext4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="Costum Diet Calculator"
+                        android:textColor="#ffff"
+                        android:textSize="22sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="242dp"
+                        android:layout_height="73dp"
+                        android:layout_below="@+id/firsttext4"
+                        android:layout_marginLeft="10dp"
+                        android:text="Input how many Kg's you want to lose and we will give you how much calories you need to take , taking in count your height weight age "
+                        android:textColor="#ffff"
+                        android:textSize="12sp" />
+
+                    <ImageView
+                        android:layout_width="125dp"
+                        android:layout_height="100dp"
+                        android:layout_alignParentRight="true"
+                        android:maxHeight="100dp"
+                        android:src="@drawable/custom" />
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_marginTop="20dp"
+                app:cardCornerRadius="15dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#1cc08e"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/firsttext5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="Costum Diet Calculator"
+                        android:textColor="#ffff"
+                        android:textSize="22sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="242dp"
+                        android:layout_height="73dp"
+                        android:layout_below="@+id/firsttext5"
+                        android:layout_marginLeft="10dp"
+                        android:text="Input how many Kg's you want to lose and we will give you how much calories you need to take , taking in count your height weight age "
+                        android:textColor="#ffff"
+                        android:textSize="12sp" />
+
+                    <ImageView
+                        android:layout_width="125dp"
+                        android:layout_height="100dp"
+                        android:layout_alignParentRight="true"
+                        android:maxHeight="100dp"
+                        android:src="@drawable/custom" />
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_marginTop="20dp"
+                app:cardCornerRadius="15dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#1cc08e"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/firsttext6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="Costum Diet Calculator"
+                        android:textColor="#ffff"
+                        android:textSize="22sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="242dp"
+                        android:layout_height="73dp"
+                        android:layout_below="@+id/firsttext6"
+                        android:layout_marginLeft="10dp"
+                        android:text="Input how many Kg's you want to lose and we will give you how much calories you need to take , taking in count your height weight age "
+                        android:textColor="#ffff"
+                        android:textSize="12sp" />
+
+                    <ImageView
+                        android:layout_width="125dp"
+                        android:layout_height="100dp"
+                        android:layout_alignParentRight="true"
+                        android:maxHeight="100dp"
+                        android:src="@drawable/custom" />
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>-->
+
+</LinearLayout>
